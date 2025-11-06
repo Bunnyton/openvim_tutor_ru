@@ -19,12 +19,12 @@ MIT License.
 
 ## Fork
 
-Тренажер является форком проекта https://www.openvim.com и адаптирован под
+Тренажер является форком проекта https://github.com/anton-holmes/vim_interactive_ru (https://www.openvim.com) и адаптирован под русский язык
 
 ## Deploy
 
-`docker build . -t 451777/vim_interactive_ru`
+`docker build . -t bunnyton/openvim_tutor_ru`
 
-`docker run -d -p 8889:80 --name=vim_interactive_ru 451777/vim_interactive_ru`
+`docker run -d -p 8889:80 --name=openvim_tutor_ru bunnyton/openvim_tutor_ru`
 
-https://hub.docker.com/repository/docker/451777/vim_interactive_ru/
+https://hub.docker.com/repository/docker/bunnyton/openvim_tutor_ru/

@@ -139,7 +139,7 @@ function register_VIM_TUTORIAL_SECTIONS(interpreter, messager, createSection, re
         "клавиша |w| - переходит к началу следующего слова; |e| - перемещение к концу слова и |b| - перемещение в начало слова."
       ], function() {
         interpreter.environment.setCommandMode();
-        interpreter.interpretSequence("Fn"); // cursor to "begin[n]ing"
+        interpreter.interpretSequence("Fк"); // cursor to "begin[n]ing"
         showCommandOneByOne([
           "b", "e", "b", "w", "e", "w", "e", "b",
           cmd("Enter", function() {
@@ -309,7 +309,7 @@ function register_VIM_TUTORIAL_SECTIONS(interpreter, messager, createSection, re
       
       ], function() {
         interpreter.environment.setCommandMode();
-        interpreter.interpretSequence("Fy");
+        interpreter.interpretSequence("Fк");
         showCommandOneByOne([
           "r", "e", "Enter"],
           accepterCreator);
